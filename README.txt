@@ -28,10 +28,3 @@ The scores for the query and documents are then calculated using the lnc.ltc sch
 After this is done the query score vector is normalized, as is each document
 score vector from the number calculated during indexing. The angle between these
 two is then calculated all results in order are written to the results file.
-
-Files included
-
-index.py - Indexes the documents
-search.py - Performs queries on the documents
-dictionary.txt - Contains each word in the collection
-postings.txt - Contains the documents each word appears in
