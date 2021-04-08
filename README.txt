@@ -1,12 +1,3 @@
-This is the README file for A0213047R's submission
-e0505830@u.nus.edu
-
-== Python Version ==
-
-I'm using Python Version 3.8
-
-== General Notes about this assignment ==
-
 Indexing:
 To index the documents in the given directory I process the documents in order,
 performing sentence and word tokenization on the contents of each file, also
@@ -38,33 +29,9 @@ After this is done the query score vector is normalized, as is each document
 score vector from the number calculated during indexing. The angle between these
 two is then calculated all results in order are written to the results file.
 
-== Files included with this submission ==
+Files included
 
 index.py - Indexes the documents
 search.py - Performs queries on the documents
 dictionary.txt - Contains each word in the collection
 postings.txt - Contains the documents each word appears in
-
-== Statement of individual work ==
-
-Please put a "x" (without the double quotes) into the bracket of the appropriate statement.
-
-[x] I, A0213047R, certify that I have followed the CS 3245 Information
-Retrieval class guidelines for homework assignments.  In particular, I
-expressly vow that I have followed the Facebook rule in discussing
-with others in doing the assignment and did not take notes (digital or
-printed) from the discussions.
-
-== References ==
-
-I looked at the python docs, geeks for geeks and stackoverflow for
-clarification on Python/how to implement things
-https://docs.python.org/3/
-https://stackoverflow.com/
-https://www.geeksforgeeks.org/
-
-How to process CSV files
-https://docs.python.org/3/library/csv.html
-
-I directly copied code on how to fix a CSV field size error from this link
-https://stackoverflow.com/questions/15063936/csv-error-field-larger-than-field-limit-131072
